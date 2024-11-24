@@ -12,14 +12,14 @@ class UserLogin extends Component {
       <div className="login">
         <div className="email">
           <input
-            onChange={this.handleEmailChange}
+            onMouseDown={this.handleEmailChange}
             type="email"
             placeholder="Email"
           />
         </div>
         <div className="password">
           <input
-            onChange={this.handlePasswordChange}
+            onMouseDown={this.handlePasswordChange}
             type="password"
             placeholder="Password"
           />
